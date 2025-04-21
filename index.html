@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+      <form>
+        <p><label>Height in CM : </label><input id="height" type="text" /></p>
+        <p><label>Weight in KG : </label><input id="weight" type="text" /></p>
+        <button>Calculate</button>
+        <div id="result"></div>
+
+        <!-- <p>less than 18.5 -- Under-weight</p>
+        <p>18.5–24.9 -- Normal-weight</p>
+        <p>25–29.9 -- OVer-weight</p>
+        <p>30 and above -- Obese</p> -->
+
+        <div class="bmi-info">
+          <h1>What is BMI?</h1>
+          <p>
+            <span class="highlight">BMI</span> stands for
+            <strong>Body Mass Index</strong>. It is a simple calculation used to
+            assess whether a person has a healthy body weight for their height.
+          </p>
+
+          <h2>📊 BMI Categories:</h2>
+          <ul>
+            <li>Underweight: BMI &lt; 18.5</li>
+            <li>Normal weight: BMI 18.5 – 24.9</li>
+            <li>Overweight: BMI 25 – 29.9</li>
+            <li><span class="highlight">Obese: BMI 30 and above</span></li>
+          </ul>
+
+          <p>
+            Note: BMI is a general guideline and may not apply equally to all
+            body types (e.g., athletes).
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
